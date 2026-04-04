@@ -25,6 +25,10 @@ module.exports = {
     Notification: "notification",
     Elicitation: "notification",
     WorktreeCreate: "carrying",
+    TaskCreated: "working",
+    TaskCompleted: "attention",
+    ConfigChange: "notification",
+    InstructionsLoaded: "idle",
   },
   capabilities: {
     httpHook: true,

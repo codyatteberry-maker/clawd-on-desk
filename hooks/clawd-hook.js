@@ -23,6 +23,10 @@ const EVENT_TO_STATE = {
   // PermissionRequest is handled by HTTP hook (blocking) — not command hook
   Elicitation: "notification",
   WorktreeCreate: "carrying",
+  TaskCreated: "working",
+  TaskCompleted: "attention",
+  ConfigChange: "notification",
+  InstructionsLoaded: "idle",
 };
 
 const event = process.argv[2];
